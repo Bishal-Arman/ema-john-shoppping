@@ -1,0 +1,52 @@
+.product img {
+    width: 235px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.product {
+    border: 2px solid gainsboro;
+    border-radius: 15px;
+    width: 245px;
+    /* height: 507px; */
+    height: 430px;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.product-info .price {
+    margin-top: -13px;
+}
+
+.product-info .rating {
+    margin-top: -13px;
+}
+
+.product-info {
+    padding-left: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.btn-cart {
+    width: 100%;
+    background: #FFE0B3;
+    border: 1px solid #95A0A7;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cart .btn-text {
+    margin-right: 10px;
+}
+
+.btn-cart:hover {
+    background-color: orange;
+}
